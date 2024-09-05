@@ -101,6 +101,11 @@
             key-positions = <4 14>;
             bindings = <&kp RCTRL>;
         };
+
+        combo_grave {
+            key-positions = <1 2>;
+            bindings = <&kp GRAVE>;
+        };
     };
     
 
@@ -149,9 +154,9 @@
 
         layer_mac_math {
             bindings = <
-                        &kp N4      &kp N5      &kp N6      &kp PIPE2           &kp EQUAL   &kp LT      &kp UNDER   &kp GT      
-&kp LSHFT   &kp N0      &kp N1      &kp N2      &kp N3      &kp DOT             &kp NUBS    &kp COLON   &kp MINUS   &kp DQT     &kp FSLH    &kp PRCNT   
-            &kp DLLR    &kp N7      &kp N8      &kp N9                                      &kp EXCL    &kp QMARK   &kp COLON   &kp SQT     
+                        &kp N4      &kp N5      &kp N6      &mp;kp int1)        &kp EQUAL   &kp LT      &kp UNDER   &kp GT      
+&kp LSHFT   &kp N0      &kp N1      &kp N2      &kp N3      &kp DOT             &kp INT3    &kp COLON   &kp MINUS   &kp DQT     &kp FSLH    &kp PRCNT   
+            &kp DLLR    &kp N7      &kp N8      &kp N9                                      &kp EXCL    &kp QMARK   &kp SQT     &kp SEMI    
                                                 &none       &trans              &trans      &lt 6 SPACE 
             >;
         };
@@ -159,8 +164,8 @@
         layer_mac_navi {
             bindings = <
                         &kp RBKT    &kp AT      &kp NUHS    &kp LBKT            &kp HASH    &kp ESC     &kp UP      &kp CAPS    
-&kp LSHFT   &kp EQUAL   &kp STAR    &kp AMPS    &kp LPAR    &kp CARET           &kp PIPE    &kp LEFT    &kp DOWN    &kp RIGHT   &kp C_BRI_UP &kp LS(LG(N3)) 
-            &kp BSLH    &kp RBRC    &kp GRAVE   &kp TILDE2                                  &kp C_PREV  &kp C_PP    &kp C_NEXT  &kp C_BRI_DN 
+&kp LSHFT   &kp PLUS    &kp STAR    &kp AMPS    &kp LPAR    &kp CARET           &mp;kp int3) &kp LEFT   &kp DOWN    &kp RIGHT   &kp C_BRI_UP &kp LS(LG(N3)) 
+            &kp BSLH    &kp RBRC    &kp LBRC    &kp TILDE2                                  &kp C_PREV  &kp C_PP    &kp C_NEXT  &kp C_BRI_DN 
                                                 &lt 6 SPACE &mt LCTRL DEL       &trans      &none       
             >;
         };
